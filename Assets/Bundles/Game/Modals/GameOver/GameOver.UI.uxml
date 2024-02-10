@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/Game/Modals/GameOver/GameOver.Style.uss?fileID=7433441132597879392&amp;guid=93c0dcbc8993414789b979468cc35b36&amp;type=3#GameOver.Style" />
+    <ui:VisualElement name="root" class="content">
+        <UI.LocalizableLabel name="title" text="Game Over" locale-table="GameStringsTable" locale-key="PauseModalTitleKey" class="title" />
+        <ui:VisualElement name="button_container" class="button_container">
+            <UI.LocalizableButton name="restart" text="Restart" locale-table="GameStringsTable" locale-key="RestartButtonTitleKey" class="button" />
+            <UI.LocalizableButton name="main_menu" text="Give Up" locale-table="GameStringsTable" locale-key="GiveUpButtonTitleKey" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/Game/HUD/UI/Button.HUD.Style.uss?fileID=7433441132597879392&amp;guid=0809a1e0d611841969e70c1a400e8257&amp;type=3#Button.HUD.Style" />
+    <ui:VisualElement name="jump_button" class="button" style="align-self: flex-end;">
+        <ui:VisualElement name="icon" class="icon" style="background-image: url(&apos;project://database/Assets/Bundles/Game/HUD/Icons/ic_up.64x64.png?fileID=2800000&amp;guid=3de3c603d7d79480f95526b2d59bed21&amp;type=3#ic_up.64x64&apos;);" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/SettingsMenu/UI/SettingsMenu.Style.uss?fileID=7433441132597879392&amp;guid=8522106b8b784c65a830f8df17303b09&amp;type=3#SettingsMenu.Style" />
+    <ui:VisualElement name="root" class="settings_root">
+        <ui:VisualElement name="footer" style="flex-grow: 0; flex-direction: row; justify-content: center; margin-bottom: 10px; margin-top: 10px;">
+            <UI.LocalizableButton text="Back" display-tooltip-when-elided="true" name="back" locale-table="GameHubStringsTable" locale-key="CloseSettingsMenuTitleKey" class="settings_menu_button" />
+            <UI.LocalizableButton text="Reset" display-tooltip-when-elided="true" name="reset" locale-table="GameHubStringsTable" locale-key="ResetSettingsMenuTitleKey" class="settings_menu_button" />
+        </ui:VisualElement>
+        <UI.TabContainer name="tab_container" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/SettingsMenu/UI/SettingsMenu.Style.uss?fileID=7433441132597879392&amp;guid=8522106b8b784c65a830f8df17303b09&amp;type=3#SettingsMenu.Style" />
+    <ui:VisualElement class="settings_page">
+        <ui:VisualElement name="content">
+            <UI.LocalizableLabel tabindex="-1" text="Audio" display-tooltip-when-elided="true" name="title" locale-table="GameHubStringsTable" locale-key="AudioTabTitleKey" class="settings_page_title" />
+            <UI.OptionsSliderRow title="Music Valium" value="1" name="music_value" locale-table="GameHubStringsTable" locale-title-key="MusicVolumeTitleKey" class="row" />
+            <UI.OptionsSliderRow title="FX Valium " value="1" name="fx_value" locale-table="GameHubStringsTable" locale-title-key="EffectVolumeTitleKey" class="row" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/Game/HUD/UI/Score.HUD.Style.uss?fileID=7433441132597879392&amp;guid=59169be7bbca40b9ab0904250116aea3&amp;type=3#Score.HUD.Style" />
+    <ui:VisualElement name="score" class="score_container">
+        <UI.LocalizableLabel text="Score:" name="score_title" locale-table="GameStringsTable" locale-key="ScoreTitleKey" class="score_text" />
+        <ui:Label tabindex="-1" text="0" display-tooltip-when-elided="true" name="score_value" class="score_text" />
+    </ui:VisualElement>
+</ui:UXML>

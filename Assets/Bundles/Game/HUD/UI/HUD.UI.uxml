@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/Game/HUD/UI/HUD.Style.uss?fileID=7433441132597879392&amp;guid=c10d4c38377624905b88aedf6fea99ba&amp;type=3#HUD.Style" />
+    <ui:VisualElement name="root" class="hud_root">
+        <ui:VisualElement name="toolbar" class="hud_toolbar">
+            <ui:VisualElement name="left_toolbar" class="hud_left_toolbar" />
+            <ui:VisualElement name="right_toolbar" class="hud_right_toolbar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="footer" class="hud_footer">
+            <ui:VisualElement name="left_footer" class="hud_left_footer"/>
+            <ui:VisualElement name="right_footer" class="hud_right_footer"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

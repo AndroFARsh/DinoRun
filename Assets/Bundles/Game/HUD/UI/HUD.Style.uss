@@ -1,0 +1,39 @@
+.hud_root {
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.hud_toolbar {
+    flex-grow: 0;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.hud_left_toolbar {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.hud_right_toolbar {
+    flex-grow: 1;
+    flex-direction: row-reverse;
+}
+
+.hud_footer {
+    flex-grow: 0;
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.hud_left_footer {
+    flex-grow: 1;
+    flex-direction: row;
+}
+
+.hud_right_footer {
+    flex-grow: 1;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+

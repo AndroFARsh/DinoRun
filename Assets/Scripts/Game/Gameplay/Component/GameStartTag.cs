@@ -1,0 +1,6 @@
+namespace Game
+{
+    struct GameStartTag
+    {
+    }
+}

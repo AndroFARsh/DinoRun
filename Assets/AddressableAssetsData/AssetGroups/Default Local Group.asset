@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3dfe5408b224a403d90bcab92ad186e3
+  m_SerializeEntries:
+  - m_GUID: b67c9bfb579c44855b4f8a7218eaf792
+    m_Address: UIToolkit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 064786e9ad7f944f6b53fe3b6f3053c6
+    m_Address: EffectSource.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd1b212d1f71c4dd5b84e9488ca02c18
+    m_Address: MusicSource.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0c5f080f82a7495b8012d9f37cc7634
+    m_Address: WindowsContainer.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eec6ea4d2f3a9460b99527341b1a441e
+    m_Address: Assets/Bundles/Game/HUD/Icons/ic_forward.64x64.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 583ea156da948486b8c74f7ca5fdce44
+    m_Address: Assets/Bundles/Game/HUD/Icons/ic_settings.512x512.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3de3c603d7d79480f95526b2d59bed21
+    m_Address: Assets/Bundles/Game/HUD/Icons/ic_up.64x64.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: be616252ba7f64ccf9c22bdca5b83b20
+    m_Address: Assets/Bundles/Game/HUD/Icons/ic_down.64x64.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f74e304556b744ecb6d3a1063f034c6
+    m_Address: Assets/Bundles/Game/HUD/Icons/ic_previous.64x64.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28a57ea415fc34209b1b59e3bacc12b0
+    m_Address: Loader.Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cbddaaa680814286984f9c7f550dfcd
+    m_Address: Loader.UI
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 741c947e2f47f487c8cc7544140430b4
+    m_Address: Curtain.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e3b547c83e2b243338250b0636b6dd39, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 07906afff5c6241a2ac649ccf09f8066, type: 2}
+    - {fileID: 11400000, guid: 3fdb2abe694784750a11bbe46911185f, type: 2}

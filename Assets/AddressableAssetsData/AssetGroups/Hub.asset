@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Hub
+  m_EditorClassIdentifier: 
+  m_GroupName: Hub
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 121ca3da292e04c64913f2180f98dc48
+  m_SerializeEntries:
+  - m_GUID: ec9338a8321834de5a449a07d8d0d846
+    m_Address: Hub.Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7f94d6b9e4c24423a1d4dc41bf2083e
+    m_Address: Audio.SettingsMenu.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hub
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc28983c7e5554357849209c0e0ec593
+    m_Address: Game.SettingsMenu.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hub
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a34007f515424bb38b86942a9e76047
+    m_Address: MainMenu.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hub
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b56ee95cb0644ff68c11d9d18efd836
+    m_Address: SettingsMenu.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hub
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e3b547c83e2b243338250b0636b6dd39, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 7a5b14c89cf014a089f9adf80baeb9d0, type: 2}
+    - {fileID: 11400000, guid: 6aa6fb878a75349d19dad2b71f39affa, type: 2}

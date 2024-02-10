@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/Game/Modals/Pause/Pause.Style.uss?fileID=7433441132597879392&amp;guid=b004a1120a60843b484a1a773c4eeb04&amp;type=3#Pause.Style" />
+    <ui:VisualElement name="root" class="content">
+        <UI.LocalizableLabel name="title" text="Pause Dialog" locale-table="GameStringsTable" locale-key="PauseModalTitleKey" class="title" />
+        <UI.LocalizableButton name="resume" text="Resume" locale-table="GameStringsTable" locale-key="ResumeButtonTitleKey" focusable="true" class="button" />
+        <UI.LocalizableButton name="restart" text="Restart" locale-table="GameStringsTable" locale-key="RestartButtonTitleKey" focusable="true" class="button" />
+        <UI.LocalizableButton name="options" text="Options" locale-table="GameStringsTable" locale-key="OptionButtonTitleKey" focusable="true" class="button" />
+        <UI.LocalizableButton name="main_menu" text="Main Menu" locale-table="GameStringsTable" locale-key="MainMenuButtonTitleKey" focusable="true" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

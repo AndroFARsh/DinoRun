@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/MainMenu/UI/MainMenu.Style.uss?fileID=7433441132597879392&amp;guid=69839ed2ce99643b98cc5c31c3f923d7&amp;type=3#MainMenu.Style" />
+    <ui:VisualElement name="root" class="maim_root">
+        <ui:Label text="v1.0" name="version" class="version_label" />
+        <ui:VisualElement name="menu_container" class="menu_container">
+            <UI.LocalizableButton text="Play" focusable="true" name="play_button" locale-table="GameHubStringsTable" locale-key="PlayButtonKey" class="maim_menu_button" />
+            <UI.LocalizableButton text="Settings" focusable="true" name="settings_button" locale-table="GameHubStringsTable" locale-key="OptionsButtonKey" class="maim_menu_button" />
+            <UI.LocalizableButton text="Exit" focusable="true" name="exit_button" locale-table="GameHubStringsTable" locale-key="ExitButtonKey" class="maim_menu_button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

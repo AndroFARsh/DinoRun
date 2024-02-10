@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: GameHubStringsTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: GameHubStringsTable
+  m_TableCollectionNameGuidString: 4d4617a4bd089408096db0c6d06dc217
+  m_Entries:
+  - m_Id: 73910968320
+    m_Key: PlayButtonKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418041028608
+    m_Key: OptionsButtonKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 855741816832
+    m_Key: GameTabTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1008972324864
+    m_Key: LanguageTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10718773501952
+    m_Key: AudioTabTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306838389121024
+    m_Key: EffectVolumeTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307670018940928
+    m_Key: MusicVolumeTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 359297572659200
+    m_Key: CloseSettingsMenuTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53475555478069248
+    m_Key: ResetSettingsMenuTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53482849301422080
+    m_Key: ExitButtonKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87564584771117056
+    m_Key: TextSizeTitleKey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93034081707614208
+    m_Key: 'AppTitle
+
+'
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6769851608899780632
+  references:
+    version: 2
+    RefIds:
+    - rid: 6769851608899780632
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1683526470658

@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Game
+  m_EditorClassIdentifier: 
+  m_GroupName: Game
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 702d7db012dc64942ba9c66095b54eff
+  m_SerializeEntries:
+  - m_GUID: 16563c1473871412eafb7a46b2ba38e2
+    m_Address: Game.Scene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2e6699f1e8914a54a06f62106002a06
+    m_Address: HUDContainer.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f001c1c2144d41079c596446ff4c2245
+    m_Address: Score.HUD.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b09c734137664275a1f74ea498da1297
+    m_Address: Settings.HUD.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdac95029dad84c0c8def227bdfdd4d4
+    m_Address: PauseModal.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f729618987484f96b96c955a3a399a40
+    m_Address: GameOverModal.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 386c0c667ab6d4372b7f666701f845db
+    m_Address: Character.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e447abe15267496aaabc5ebfc5ce7a6
+    m_Address: Obstacle.Large.1.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41e0fb0e4260e47c59a3826f0cbba461
+    m_Address: Obstacle.Large.2.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7465aa80f1794c3c92c93f8a0cf7839
+    m_Address: Obstacle.Large.3.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92c1834a0d2c249cc84f76665f865d10
+    m_Address: Obstacle.Small.1.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9904e9b32f4da46808a25b1909eb586d
+    m_Address: Obstacle.Small.2.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5a89d4fc2b7d45289602f773a2c8ec1
+    m_Address: Obstacle.Small.3.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55e477d4740e446b39526ed71dc999f3
+    m_Address: Obstacle.Movable.Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7865456e83ea4a99869973506f1d35a
+    m_Address: Jump.HUD.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0ddf9e0aa324f928415183bedbbe211
+    m_Address: Crouch.HUD.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35ad16f29cba43568e905e81d73431ee
+    m_Address: Joystick.HUD.UI
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14d58211708fe4ccba3ad706b43d3ba4
+    m_Address: Assets/Bundles/Game/Sprites/sprites.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bae148aa181c473db710361ed24da5b
+    m_Address: Assets/Bundles/Game/Character/Animation/Character.Jump.Animation.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0faaf4b53f0f4d888a5ac5d033180ea
+    m_Address: Assets/Bundles/Game/Character/Animation/Character.Dead.Animation.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18abe8a67c9ed47299a099a4440db9cb
+    m_Address: Assets/Bundles/Game/Character/Animation/Character.Run.Animation.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c23b2f94bcbb54da4ac061b33072b59f
+    m_Address: Assets/Bundles/Game/Character/Animation/Character.Crouch.Animation.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42b9d34ac5559484b9b43fd0ecb8926c
+    m_Address: Assets/Bundles/Game/Character/Animation/Character.Idle.Animation.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 834ed370801514ac3bd2b1f9db90cbe0
+    m_Address: Assets/Bundles/Game/Character/Animation/Character.AnimationController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c55fd1e3f0bd04350a0732f7db1ea130
+    m_Address: Assets/Bundles/Game/Character/Animation/Character.SpriteLibrary.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df943e8cb6fdc44089e411b5f92db0bc
+    m_Address: Assets/Bundles/Game/Environment/Animation/MuvableObstacle/MovableObstacle_Ptero.AnimatorController.controller
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b54ab2b9313a743dda97af59b11847f4
+    m_Address: Assets/Bundles/Game/Environment/Animation/MuvableObstacle/MovableObstacle_Ptero.Move.Animation.anim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ba4877272aa34e2787d14e1999893be
+    m_Address: Assets/Bundles/Game/Environment/Animation/MuvableObstacle/MovableObstacle_Ptero.SpriteLibrary.spriteLib
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10a5d0250d771471287b064dfbb10bc7
+    m_Address: Assets/Bundles/Game/Environment/Prefab/Background.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5b45bf018996409a9514410f4b9125f
+    m_Address: Assets/Bundles/Game/Environment/Prefab/Ground.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1241446dfed9743929792c4e0490eb36
+    m_Address: Assets/Bundles/Game/Environment/Prefab/ObstacleSpawnPoint.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f95a96fa961ca45d5a0ba921f5c547c6
+    m_Address: Assets/Bundles/Game/Environment/Prefab/Clouds/Cloud_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 441aea0877ff34253a38d67168a2dfa1
+    m_Address: Assets/Bundles/Game/Environment/Prefab/Clouds/Cloud_0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5b4d854c8f144f7ab7b135a9bfe80d6
+    m_Address: Assets/Bundles/Game/Environment/Prefab/Clouds/Cloud_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66c85dd87ebf948b69a27b64bffea709
+    m_Address: Assets/Bundles/Game/Environment/Prefab/Clouds/Cloud_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 609af85d9887648ae89cebce7e17b682
+    m_Address: Assets/Bundles/Game/HUD/Prefabs/CrouchOnScreen.Pref.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e445473b805d43f2b434bf277716ddc
+    m_Address: Assets/Bundles/Game/HUD/Prefabs/JumpOnScreen.Pref.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d58c96046093c49b6879f93eefa2d463
+    m_Address: Assets/Bundles/Game/HUD/UI/HUD.UI.uxml
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c10d4c38377624905b88aedf6fea99ba
+    m_Address: Assets/Bundles/Game/HUD/UI/HUD.Style.uss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0809a1e0d611841969e70c1a400e8257
+    m_Address: Assets/Bundles/Game/HUD/UI/Button.HUD.Style.uss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a17371acd2d7469580fcd8295b10cde0
+    m_Address: Assets/Bundles/Game/HUD/UI/Joystick.HUD.Style.uss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59169be7bbca40b9ab0904250116aea3
+    m_Address: Assets/Bundles/Game/HUD/UI/Score.HUD.Style.uss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36ed5281e9d045f6ae3698c28a00187c
+    m_Address: Assets/Bundles/Game/HUD/UI/Settings.HUD.Style.uss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93c0dcbc8993414789b979468cc35b36
+    m_Address: Assets/Bundles/Game/Modals/GameOver/GameOver.Style.uss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b004a1120a60843b484a1a773c4eeb04
+    m_Address: Assets/Bundles/Game/Modals/Pause/Pause.Style.uss
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Game
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e3b547c83e2b243338250b0636b6dd39, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 110ea563c2f874bb8afdfde75096d41b, type: 2}
+    - {fileID: 11400000, guid: 1f4a1a31f1b1a4a14bd1ce563b77f781, type: 2}

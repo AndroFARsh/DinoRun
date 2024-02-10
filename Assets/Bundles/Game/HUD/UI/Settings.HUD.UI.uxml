@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Bundles/Game/HUD/UI/Settings.HUD.Style.uss?fileID=7433441132597879392&amp;guid=36ed5281e9d045f6ae3698c28a00187c&amp;type=3#Settings.HUD.Style" />
+    <ui:Button display-tooltip-when-elided="true" name="settings_button" enable-rich-text="false" tooltip="Settings" class="settings_button" style="background-image: url(&apos;project://database/Assets/Bundles/Game/HUD/Icons/ic_settings.512x512.png?fileID=2800000&amp;guid=583ea156da948486b8c74f7ca5fdce44&amp;type=3#ic_settings.512x512&apos;);" />
+</ui:UXML>

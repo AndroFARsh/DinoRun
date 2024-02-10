@@ -1,0 +1,204 @@
+.settings_root {
+    flex-grow: 1;
+    flex-direction: column-reverse;
+    background-color: rgb(255, 255, 255);
+}
+
+.settings_page {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.settings_page_title {
+    padding: 0 5px 10px;
+    -unity-font-style: bold;
+    font-size: 24px;
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.row:hover {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.row:active {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row:checked {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row:focus {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tab_container {
+    background-color: rgb(255, 255, 255);
+}
+
+.tab_content {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+}
+
+.tab_bar {
+    flex-grow: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    flex-direction: row;
+}
+
+.tab_button_default {
+    justify-content: center;
+    align-self: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    -unity-font-style: bold;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 10px 0 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.tab_button_default:hover {
+    margin: 10px 0 0;
+    border-top-right-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.tab_button_active {
+    justify-content: center;
+    align-self: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    -unity-font-style: bold;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 5px 0 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.row:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.row:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.row_title {
+    justify-content: center;
+    -unity-font-style: bold;
+    -unity-text-align: middle-left;
+    font-size: 16px;
+}
+
+.row_title:focus {
+    color: rgb(255, 255, 255);
+}
+
+.row_content_container {
+    align-self: center;
+    justify-content: center;
+}
+
+.row_content_label {
+    font-size: 16px;
+    -unity-text-align: upper-center;
+    flex-grow: 0;
+    flex-direction: column;
+    align-items: auto;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.row_prev_button {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    left: auto;
+    background-image: url('project://database/Assets/Bundles/Game/HUD/ic_previous.64x64.png?fileID=2800000&guid=8f74e304556b744ecb6d3a1063f034c6&type=3#ic_previous.64x64');
+    width: 32px;
+    height: 32px;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.row_prev_button:hover {
+    -unity-background-image-tint-color: rgb(200, 0, 200);
+}
+
+.row_next_button {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    left: auto;
+    background-image: url('project://database/Assets/Bundles/Game/HUD/ic_forward.64x64.png?fileID=2800000&guid=eec6ea4d2f3a9460b99527341b1a441e&type=3#ic_forward.64x64');
+    width: 32px;
+    height: 32px;
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+}
+
+.row_next_button:hover {
+    -unity-background-image-tint-color: rgb(200, 0, 200);
+}
+
+.settings_menu_button {
+    text-overflow: clip;
+    -unity-text-align: upper-left;
+    align-self: center;
+    -unity-font-style: bold;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.settings_menu_button:focus {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+}
+
+.settings_menu_button:hover {
+    border-left-color: rgba(0, 0, 0, 0.2);
+    border-right-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.settings_menu_button:active {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+}

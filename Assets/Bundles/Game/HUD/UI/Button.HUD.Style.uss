@@ -1,0 +1,33 @@
+.button {
+    margin: 40px;
+    padding: 40px;
+    width: 160px; 
+    height: 160px;
+    border-radius: 80px;
+    background-color: rgb(255, 255, 255); 
+    border-width: 8px; 
+    border-color: rgb(83, 83, 83);
+}
+
+.button:hover {
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(110, 110, 110);
+}
+
+.button:active {
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(140, 140, 140);
+}
+
+.button .icon {
+    flex-grow: 1; 
+    -unity-background-image-tint-color: rgb(83, 83, 83);
+}
+
+.button:hover .icon {
+    -unity-background-image-tint-color: rgb(110, 110, 110);
+}
+
+.button:active .icon {
+    -unity-background-image-tint-color: rgb(140, 140, 140);
+}

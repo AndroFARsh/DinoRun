@@ -1,0 +1,11 @@
+.score_container {
+    flex-grow: 0; 
+    flex-direction: row;
+    margin: 20px;
+}
+
+.score_text {
+    font-size: 26px; 
+    -unity-font-style: bold; 
+    color: rgb(83, 83, 83);
+}

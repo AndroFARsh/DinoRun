@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Bootstrap.unity
+    guid: 084398ac4773040b4a07bb37c6beab26
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: b500ef5c65c184919bc28b449aa23195, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 97cc5ed93df104ca7bf17ed77926fc2d, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 7a60fa75269c844569321c65ecea2834, type: 2}
+  m_UseUCBPForAssetBundles: 0

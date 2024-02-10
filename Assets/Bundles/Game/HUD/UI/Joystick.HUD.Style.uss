@@ -1,0 +1,30 @@
+#joystick_touch_area{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    min-height: 200px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 400px;
+}
+
+#joystick_outer{
+    display: none;
+    border-width: 5px;
+    border-radius: 100%;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(110, 110, 110);
+}
+
+#joystick_knob{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    border-radius: 100%;
+    
+    background-color: rgb(110, 110, 110);
+}

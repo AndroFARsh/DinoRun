@@ -1,0 +1,18 @@
+.settings_button {
+    align-self: flex-end;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    margin: 20px;
+    width: 32px;
+    height: 32px;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(83, 83, 83);
+}
+
+.settings_button:hover {
+    -unity-background-image-tint-color: rgb(73, 73, 73);
+}
+
+.settings_button:active {
+    -unity-background-image-tint-color: rgb(53, 53, 53);
+}

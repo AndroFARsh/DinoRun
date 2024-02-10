@@ -1,0 +1,59 @@
+.maim_root {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.menu_container {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0);
+    align-self: center;
+    align-items: stretch;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+
+.maim_menu_button {
+    text-overflow: clip;
+    -unity-text-align: upper-left;
+    align-self: center;
+    -unity-font-style: bold;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.maim_menu_button:focus {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+}
+
+.maim_menu_button:hover {
+    border-left-color: rgba(0, 0, 0, 0.2);
+    border-right-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.maim_menu_button:active {
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.version_label {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    height: auto;
+    -unity-text-align: upper-right;
+}

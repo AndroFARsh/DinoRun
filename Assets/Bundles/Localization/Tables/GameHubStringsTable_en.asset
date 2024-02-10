@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameHubStringsTable_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4d4617a4bd089408096db0c6d06dc217, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6769851608899780642
+  m_TableData:
+  - m_Id: 73910968320
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418041028608
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 855741816832
+    m_Localized: Game
+    m_Metadata:
+      m_Items:
+      - rid: 6769851608899780642
+  - m_Id: 1008972324864
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10718773501952
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 306838389121024
+    m_Localized: Effect Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 307670018940928
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53475555478069248
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 359297572659200
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53482849301422080
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87564584771117056
+    m_Localized: Text Size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93034081707614208
+    m_Localized: Dino Run
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6769851608899780642
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00e02f3ec7000000
